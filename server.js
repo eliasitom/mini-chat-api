@@ -3,7 +3,6 @@ require("./database")
 const userSchema = require("./Schemas/UserSchema")
 const chatSchema = require("./Schemas/ChatSchema")
 
-require("dotenv").config()
 
 const jwt = require("jsonwebtoken")
 const TOKEN_EXPIRATION = "24h"
